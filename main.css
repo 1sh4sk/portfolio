@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #FCF8F3;
+    font-size: 25px ;
+    width: 100vw;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+/* navigation bar start */
+.navbar{
+    position: fixed;
+    top: 0px;
+    width:100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.609);
+    overflow: hidden;
+}
+
+.logo{
+    color: white;
+    flex: 1 1 auto;
+    padding-left:200px;
+    text-decoration: none;
+}
+
+.nav_items{
+    font-size: 18px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-right:200px;
+}
+
+.nav_items a{
+    color: white;
+    text-decoration: none;
+}
+/* navbar end */
+
+/* landing page start */
+
+.landing_page{
+    margin-top: 80px;
+    width: 100%;
+    display: flex; 
+    background-color: #efd5c8;
+    padding: 0 200px;
+}
+
+.img_cont{
+    width: 40%;
+    height: 806px;
+    margin: auto 15px auto 0;    
+}
+
+img{
+    width: 745px;
+    height:806px;
+    object-fit: cover;
+}
+
+.content_cont{
+    width: 60%;
+    margin: auto 0 auto 15px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    color: #698474;
+}
+
+h1{
+    font-family: 'Italianno', cursive;
+    color: white;
+    font-size: 100px;
+    text-shadow: #FFAAA5 3px 3px 3px;
+}
+
+.contact_info{
+    margin: 30px 0;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_info_items{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.icons,.contact_info_items a{
+    margin: 15px;
+    text-decoration: none;
+    color: #698474;
+}
+
+.contact_info_items a:hover{
+    font-size: 28px;
+    color: #F7DAD9;
+    position:absolute;
+    margin-left: 80px;
+}
+
+.contact_info_items a:visited{
+    color: white;
+}
+
+
+/* landing page end */
+
+.content{
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.sub_content{
+    margin-top: 25px;
+}
+
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #5D534A;
+}
+
+.sub_content p{
+  font-family: 'Raleway', sans-serif;
+  color: #698474;
+  padding: 25px 0;
+  line-height: 2.5rem;
+}
+
+/* footer */
+
+.footer_cont{
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.609);
+}
+
+.footer_icons{
+    color: white;
+}
